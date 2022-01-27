@@ -10,7 +10,7 @@ export const Addtodo = () => {
     const [data,setData]=useState('');
     console.log(data);
     
-    const[todo,setTodo]=useState('');
+    //const[todo,setTodo]=useState('');
 
     const add=()=>{
         console.log('Data:',data)
