@@ -5,8 +5,6 @@ import TodoItem from './components/TodoItem';
 import { useSelector } from 'react-redux';
 import { selectTodoList } from './features/todoSlice';
 
-
-
 function App() {
   const todoList=useSelector(selectTodoList)
   return (
